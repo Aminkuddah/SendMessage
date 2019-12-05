@@ -81,7 +81,7 @@
         android:textColor="#111111"
         android:background="@color/colorPrimary"
         android:layout_height="wrap_content"
-        android:onClick="alertButton"
+        android:onClick="insertButton"
         />
 
 </LinearLayout>
