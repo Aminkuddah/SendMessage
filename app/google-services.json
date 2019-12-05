@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732245123922",
+    "firebase_url": "https://push-message-firebase.firebaseio.com",
+    "project_id": "push-message-firebase",
+    "storage_bucket": "push-message-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732245123922:android:907ead5021795faf14d08b",
+        "android_client_info": {
+          "package_name": "com.example.sendmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732245123922-n0p63rhr3rggcndor8ppssg9ajiciagl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC827IcRwUva1bO_195s5gaW8t44HnGNdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732245123922-n0p63rhr3rggcndor8ppssg9ajiciagl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
