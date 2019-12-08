@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText namaInput;
     private EditText alamatInput;
     private EditText hpInput;
-    String nis, nama, alamat, hp, keterangan;
+    String nama, alamat, hp;
 
     private DatabaseReference mDatabase;
 
@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         alamat= alamatInput.getText().toString();
         hp = hpInput.getText().toString();
 
-        mDatabase.child("data").child("nama").setValue(nama);
-        mDatabase.child("data").child("alamat").setValue(alamat);
-        mDatabase.child("data").child("hp").setValue(hp);
-
+        DatabaseReference newData = mDatabase.child("data").push();
+        newData.child("nama").setValue(nama);
+        newData.child("alamat").setValue(alamat);
+        newData.child("hp").setValue(hp);
     }
 
 //    public void alertButton(View view) {
