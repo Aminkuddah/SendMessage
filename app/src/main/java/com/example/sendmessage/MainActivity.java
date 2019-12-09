@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity{
                 .setTicker("TickerTitle")
                 .setContentTitle("Data siswa")
                 .setContentText("Biodata siswa berhasil ditambahkan")
-                .setSmallIcon(R.drawable.ic_launcher_background);
+                .setWhen(System.currentTimeMillis())
+                .setSmallIcon(R.drawable.notification_flat);
 
         DatabaseReference newData = mDatabase.child("data").push();
         newData.child("nama").setValue(nama);
